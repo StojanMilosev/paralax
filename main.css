@@ -1,0 +1,44 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    font-family: Cantarell, sans-serif;
+    height: 100%;
+}
+h1,h3{
+    margin: 20px 0;
+}
+p{
+    margin: 10px 0;
+}
+.container{
+    width: 900px;
+    margin: auto;
+}
+.content{
+    padding: 50px;
+    height: auto;
+}
+#img-1{
+    background-image: url("img-1.jpg");
+}
+#img-2{
+    background-image: url("img-2.jpg");
+}
+.title{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    font-size: 100px;
+    color: white;
+}
+.paralax{
+    /*full height*/
+    height: 100%;
+
+    /*paralax scroling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
