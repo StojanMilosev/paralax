@@ -10,6 +10,27 @@ h1,h3{
 p{
     margin: 10px 0;
 }
+nav{
+    height: 0;
+}
+nav ul{
+    position: fixed;
+    top: 20px;
+    right: 50%;
+    list-style-type: none;
+    z-index: 1;
+}
+nav li{
+    display: inline-block;
+    float: left;
+}
+nav a{
+    box-sizing: border-box;
+    color: #000;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bolder;
+}
 .container{
     width: 900px;
     margin: auto;
