@@ -16,9 +16,11 @@ nav{
 nav ul{
     position: fixed;
     top: 20px;
-    right: 50%;
+    left: 10%;
     list-style-type: none;
     z-index: 1;
+    border-bottom: solid 2px #222;
+    height: 40px;
 }
 nav li{
     display: inline-block;
@@ -26,7 +28,7 @@ nav li{
 }
 nav a{
     box-sizing: border-box;
-    color: #000;
+    color: #222;
     text-decoration: none;
     padding: 20px;
     font-weight: bolder;
